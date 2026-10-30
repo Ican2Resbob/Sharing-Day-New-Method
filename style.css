@@ -204,6 +204,9 @@ button { font: inherit; cursor: pointer; }
   font-size: clamp(2.8rem, 6.2vw, 5.6rem); line-height: 1.02; letter-spacing: .01em;
   color: #fff;
 }
+.display-title {
+  font-size: clamp(2.3rem, 4.6vw, 4.2rem); line-height: 1.08; letter-spacing: .02em;
+}
 .display-sm {
   font-family: var(--font-display); font-weight: 700;
   font-size: clamp(2.2rem, 4.8vw, 4.2rem); line-height: 1.06; color: #fff;

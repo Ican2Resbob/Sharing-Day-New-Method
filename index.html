@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Journey at AIS · Dzaky Muradani Ihsan</title>
-  <meta name="description" content="My Journey at AIS: Learning, Worshipping, and Growing. Presented to Central Foundation (Yayasan Pusat)." />
+  <meta name="description" content="My Journey at AIS: Learning, Worshipping, and Growing. Presented to Central Foundation." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -40,10 +40,10 @@
 
       <div class="inner title-layout">
         <div class="title-text">
-          <p class="eyebrow reveal" style="--d:.1s">Student Development Report</p>
-          <h1 class="display reveal" style="--d:.25s">MY JOURNEY<br/><span class="gold">AT AIS</span></h1>
+          <p class="eyebrow reveal" style="--d:.1s">My Journey at AIS · Student Development Report</p>
+          <h1 class="display display-title reveal" style="--d:.25s">ALGORITHMS &amp;<br/>PROGRAMMING<br/><span class="gold">FUNDAMENTALS</span></h1>
           <div class="rule reveal" style="--d:.45s"></div>
-          <p class="subtitle reveal" style="--d:.55s">Learning, Worshipping, and Growing</p>
+          <p class="subtitle reveal" style="--d:.55s">Academic Learning, Spiritual Growth, and Personal Development</p>
           <div class="presenter reveal" style="--d:.7s">
             <strong>Dzaky Muradani Ihsan</strong>
             <span>AIS Alhidayah International School</span>
@@ -57,7 +57,6 @@
           <div class="ring ring-2"></div>
         </div>
       </div>
-      <div class="slide-foot"><span>Central Foundation (Yayasan Pusat)</span><span>01</span></div>
     </section>
 
     <!-- ============ 02 · WHAT IS AN ALGORITHM ============ -->
@@ -97,7 +96,6 @@
           <article class="trait reveal" style="--d:.9s"><span class="badge">5</span><h4>Effectiveness</h4><p>Every step can be carried out</p></article>
         </div>
       </div>
-      <div class="slide-foot"><span>Part I · Academic Learning</span><span>02</span></div>
     </section>
 
     <!-- ============ 03 · REPRESENTING AN ALGORITHM ============ -->
@@ -116,11 +114,11 @@
           </div>
           <div class="method reveal" style="--d:.35s">
             <div class="method-head m-gold"><span>02</span> Pseudocode</div>
-            <pre class="code-mini">ALGORITMA LuasPersegiPanjang
-BACA panjang
-BACA lebar
-luas &larr; panjang * lebar
-TULIS luas</pre>
+            <pre class="code-mini">ALGORITHM RectangleArea
+READ length
+READ width
+area &larr; length * width
+PRINT area</pre>
             <p><em>+</em> concise, close to code. <em>&minus;</em> needs its own writing rules.</p>
           </div>
           <div class="method reveal" style="--d:.45s">
@@ -131,38 +129,37 @@ TULIS luas</pre>
 
         <div class="right reveal" style="--d:.3s">
           <div class="fc-card">
-            <p class="fc-title">Flowchart: luas persegi panjang</p>
+            <p class="fc-title">Flowchart: rectangle area</p>
             <svg viewBox="0 0 300 500" class="flowchart" role="img" aria-label="Flowchart for rectangle area">
               <defs>
                 <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
                   <path d="M0,0 L10,5 L0,10 z" fill="#033F7A"/>
                 </marker>
               </defs>
-              <!-- Mulai -->
+              <!-- Start -->
               <rect x="95" y="16" width="110" height="40" rx="20" fill="#033F7A"/>
-              <text x="150" y="41" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">Mulai</text>
+              <text x="150" y="41" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">Start</text>
               <line x1="150" y1="56" x2="150" y2="84" stroke="#033F7A" stroke-width="2" marker-end="url(#arr)"/>
               <!-- Input (parallelogram) -->
               <polygon points="110,84 260,84 240,132 90,132" fill="#c9a24a"/>
-              <text x="175" y="110" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">Input panjang, lebar</text>
+              <text x="175" y="110" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">Input length, width</text>
               <line x1="150" y1="132" x2="150" y2="160" stroke="#033F7A" stroke-width="2" marker-end="url(#arr)"/>
               <!-- Process -->
               <rect x="80" y="160" width="140" height="48" fill="#ffffff" stroke="#033F7A" stroke-width="2"/>
-              <text x="150" y="189" text-anchor="middle" fill="#033F7A" font-size="14" font-weight="700">luas = p &times; l</text>
+              <text x="150" y="189" text-anchor="middle" fill="#033F7A" font-size="14" font-weight="700">area = l &times; w</text>
               <line x1="150" y1="208" x2="150" y2="236" stroke="#033F7A" stroke-width="2" marker-end="url(#arr)"/>
               <!-- Output (parallelogram) -->
               <polygon points="110,236 260,236 240,284 90,284" fill="#c9a24a"/>
-              <text x="175" y="262" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">Tampilkan luas</text>
+              <text x="175" y="262" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">Show area</text>
               <line x1="150" y1="284" x2="150" y2="312" stroke="#033F7A" stroke-width="2" marker-end="url(#arr)"/>
-              <!-- Selesai -->
+              <!-- End -->
               <rect x="95" y="312" width="110" height="40" rx="20" fill="#033F7A"/>
-              <text x="150" y="337" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">Selesai</text>
+              <text x="150" y="337" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">End</text>
             </svg>
             <p class="fc-legend"><span class="dot-gold"></span> Input / Output &nbsp; <span class="dot-navy"></span> Terminator &amp; process</p>
           </div>
         </div>
       </div>
-      <div class="slide-foot"><span>Part I · Academic Learning</span><span>03</span></div>
     </section>
 
     <!-- ============ 04 · VARIABLES & DATA TYPES ============ -->
@@ -177,7 +174,7 @@ TULIS luas</pre>
           <div class="storage reveal" style="--d:.2s">
             <div class="storage-lid"></div>
             <div class="storage-body">
-              <span class="var-name">umur</span>
+              <span class="var-name">age</span>
               <span class="var-value">16</span>
               <span class="var-type">Integer</span>
             </div>
@@ -186,34 +183,33 @@ TULIS luas</pre>
           <ul class="type-note reveal" style="--d:.3s">
             <li>&quot;16&quot; (text) is not 16 (number)</li>
             <li>In JavaScript, &quot;5&quot; + &quot;5&quot; gives &quot;55&quot;, not 10</li>
-            <li>Naming: <code>nilaiAkhir</code> / <code>nilai_akhir</code> ✓ &nbsp; <code>nilai akhir</code> ✗</li>
+            <li>Naming: <code>finalScore</code> / <code>final_score</code> ✓ &nbsp; <code>final score</code> ✗</li>
           </ul>
         </div>
 
         <div class="type-grid">
           <article class="type-card reveal t-blue" style="--d:.35s">
             <span class="type-ico">#</span><h4>Integer</h4><p>Whole number</p>
-            <code>let umur = 16;</code><code>$umur = 16;</code>
+            <code>let age = 16;</code><code>$age = 16;</code>
           </article>
           <article class="type-card reveal t-gold" style="--d:.42s">
             <span class="type-ico">.5</span><h4>Float</h4><p>Decimal number</p>
-            <code>let ipk = 3.75;</code><code>$ipk = 3.75;</code>
+            <code>let gpa = 3.75;</code><code>$gpa = 3.75;</code>
           </article>
           <article class="type-card reveal t-teal" style="--d:.49s">
             <span class="type-ico">Aa</span><h4>String</h4><p>Text in quotes</p>
-            <code>let nama = "Andi";</code><code>$nama = "Andi";</code>
+            <code>let name = "Andi";</code><code>$name = "Andi";</code>
           </article>
           <article class="type-card reveal t-rose" style="--d:.56s">
             <span class="type-ico">T/F</span><h4>Boolean</h4><p>true or false</p>
-            <code>let lulus = true;</code><code>$lulus = true;</code>
+            <code>let passed = true;</code><code>$passed = true;</code>
           </article>
           <article class="type-card reveal t-violet" style="--d:.63s">
             <span class="type-ico">[ ]</span><h4>Array</h4><p>Collection of data</p>
-            <code>let nilai = [80, 90];</code><code>$nilai = [80, 90];</code>
+            <code>let scores = [80, 90];</code><code>$scores = [80, 90];</code>
           </article>
         </div>
       </div>
-      <div class="slide-foot"><span>Part I · Academic Learning</span><span>04</span></div>
     </section>
 
     <!-- ============ 05 · OPERATORS ============ -->
@@ -230,7 +226,7 @@ TULIS luas</pre>
             <span class="op-tag">1 · Arithmetic</span>
             <h4>Calculate numbers</h4>
             <div class="example"><code>7 % 3</code><b>= 1</b></div>
-            <p>% gives the remainder. <code>angka % 2 == 0</code> means the number is even.</p>
+            <p>% gives the remainder. <code>number % 2 == 0</code> means the number is even.</p>
           </article>
           <article class="op-card reveal" style="--d:.35s">
             <div class="op-sym">== === != &gt; &lt;</div>
@@ -244,11 +240,10 @@ TULIS luas</pre>
             <span class="op-tag">3 · Logical</span>
             <h4>Combine conditions</h4>
             <div class="example"><code>true &amp;&amp; false</code><b class="bad">false</b></div>
-            <div class="example"><code>!lulus</code><b>flips value</b></div>
+            <div class="example"><code>!passed</code><b>flips value</b></div>
           </article>
         </div>
       </div>
-      <div class="slide-foot"><span>Part I · Academic Learning</span><span>05</span></div>
     </section>
 
     <!-- ============ 06 · TRANSITION ============ -->
@@ -269,7 +264,6 @@ TULIS luas</pre>
           &ldquo;Education is not only about developing knowledge, but also about building discipline, responsibility, and character.&rdquo;
         </blockquote>
       </div>
-      <div class="slide-foot"><span>Part II · Spiritual Development</span><span>06</span></div>
     </section>
 
     <!-- ============ 07 · WORSHIP REPORT ============ -->
@@ -336,7 +330,6 @@ TULIS luas</pre>
           </div>
         </div>
       </div>
-      <div class="slide-foot"><span>Part II · Spiritual Development</span><span>07</span></div>
     </section>
 
     <!-- ============ 08 · REFLECTION (STAIRCASE) ============ -->
@@ -357,7 +350,6 @@ TULIS luas</pre>
           &ldquo;Consistency is not only about doing something repeatedly, but also about continuously improving ourselves.&rdquo;
         </blockquote>
       </div>
-      <div class="slide-foot"><span>Part II · Spiritual Development</span><span>08</span></div>
     </section>
 
     <!-- ============ 09 · HOW AIS CHANGED MY LIFE ============ -->
@@ -370,7 +362,7 @@ TULIS luas</pre>
 
         <div class="ba">
           <article class="ba-card before reveal" style="--d:.2s">
-            <span class="ba-tag">Before AIS · SMP life</span>
+            <span class="ba-tag">Before AIS · Junior high school</span>
             <ul>
               <li>I did not live in a boarding school</li>
               <li>A more flexible daily schedule</li>
@@ -403,7 +395,6 @@ TULIS luas</pre>
           &ldquo;Discipline is important, but understanding my own limits and maintaining balance are equally important.&rdquo;
         </blockquote>
       </div>
-      <div class="slide-foot"><span>Part III · Personal Development</span><span>09</span></div>
     </section>
 
     <!-- ============ 10 · GROWING BEYOND ACADEMICS ============ -->
@@ -457,7 +448,6 @@ TULIS luas</pre>
           </article>
         </div>
       </div>
-      <div class="slide-foot"><span>Part III · Personal Development</span><span>10</span></div>
     </section>
 
     <!-- ============ 11 · FUTURE GOALS ============ -->
@@ -480,7 +470,6 @@ TULIS luas</pre>
           &ldquo;Intelligence is not just about how much we know, but also about how effectively we can think and use what we have learned.&rdquo;
         </blockquote>
       </div>
-      <div class="slide-foot"><span>Part III · Personal Development</span><span>11</span></div>
     </section>
 
     <!-- ============ 12 · CLOSING ============ -->
@@ -510,7 +499,6 @@ TULIS luas</pre>
           <div class="ring ring-2"></div>
         </div>
       </div>
-      <div class="slide-foot"><span>Central Foundation (Yayasan Pusat)</span><span>12</span></div>
     </section>
 
   </main>
